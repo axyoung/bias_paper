@@ -17,3 +17,5 @@ if sys.argv[1] == "chatgpt_bias_ft_t5_aug":
     chatgpt_template.run(data='../data/test_data/test_data.csv', model=const.stereo_bias_aug_t5_model,
                          bias=True, norm=False, output_file='../data/ft_results/ft-on-aug_t5/ft_bias_base.csv')
 ```
+For Bert and DistilBERT:
+Just the run the files with the data files of Crows-Pairs and Stereoset dataset and import the correct libraries.
